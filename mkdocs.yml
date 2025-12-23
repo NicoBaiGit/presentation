@@ -1,5 +1,5 @@
 site_name: Nicolas - SRE Freelance
-site_url: https://example.com/
+site_url: https://NicoBaiGit.github.io/presentation/
 site_description: Portfolio SRE de Nicolas
 
 theme:
@@ -31,3 +31,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
+
+nav:
+  - Accueil: index.md
+  - Environnement:
+    - WSL: environment/wsl.md
+
