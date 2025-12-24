@@ -34,6 +34,4 @@ markdown_extensions:
 
 nav:
   - Accueil: index.md
-  - Environnement:
-    - WSL: environment/wsl.md
 
