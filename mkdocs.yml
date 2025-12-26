@@ -1,35 +1,52 @@
 site_name: Nicolas - SRE Freelance
 site_url: https://NicoBaiGit.github.io/presentation/
 site_description: Portfolio SRE de Nicolas
+site_author: Nicolas Bailleul
 
 theme:
   name: material
   language: fr
-  palette: 
-    # Mode clair par défaut, bascule vers sombre
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Passer au mode sombre
+  logo: material/server-network
+  favicon: material/server-network
+  palette:
+    # Dark mode by default (SRE Style)
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: deep-purple
       toggle:
         icon: material/brightness-4
-        name: Passer au mode clair
+        name: Passer en mode clair
+    # Light mode option
+    - scheme: default
+      primary: teal
+      accent: deep-purple
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
   features:
-    - navigation.instant
-    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.tracking
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - attr_list
 
 nav:
