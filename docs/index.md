@@ -23,6 +23,10 @@ hide:
 
 </div>
 
+!!! info "🚧 Site en construction"
+    Ce portfolio et les projets associés sont actuellement en cours de développement actif.
+    Le contenu est susceptible d'évoluer régulièrement.
+
 ## 👋 À propos
 
 Je m'appelle Nicolas et je suis SRE.

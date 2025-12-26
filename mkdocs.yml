@@ -6,8 +6,6 @@ site_author: Nicolas Bailleul
 theme:
   name: material
   language: fr
-  logo: material/server-network
-  favicon: material/server-network
   palette:
     # Dark mode by default (SRE Style)
     - scheme: slate
@@ -35,6 +33,13 @@ theme:
     - search.highlight
     - content.code.copy
     - content.action.edit
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/NicoBaiGit
+    - icon: fontawesome/solid/envelope
+      link: mailto:nicolas.bailleul.wrk@gmail.com
 
 extra_css:
   - stylesheets/extra.css
